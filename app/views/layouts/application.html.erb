@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sabina Shrestha</title>
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+   <%= javascript_include_tag 'welcome.js'%>
+   <%= csrf_meta_tags %>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/agency.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body id="page-top" class="index">
+  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="/">Sabina Shrestha</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="/portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/social">Social Network</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+  </nav>
+ 
+<%= yield %>
+
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://github.com/SabinaShrestha"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/pub/sabina-shrestha/ab/407/17"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/agency.js"></script>
+
+
+</body>
+</html>
