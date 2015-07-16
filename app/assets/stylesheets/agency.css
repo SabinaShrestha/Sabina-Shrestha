@@ -265,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../assets/good.jpg);
+    background-image: url('good.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -654,7 +654,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../assets/map-image.png);
+    background-image: url('map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
