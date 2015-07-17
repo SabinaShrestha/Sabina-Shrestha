@@ -174,9 +174,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    color: purple;
-    /*background-color: #222;*/
-    background-color: red;
+    background-color: #222;
+    background: image-url('transparent.png');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .navbar-default .navbar-brand {
