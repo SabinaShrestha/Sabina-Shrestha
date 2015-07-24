@@ -28,6 +28,11 @@ gem 'sass-rails', '>= 3.2'
 gem "font-awesome-rails"
 gem 'mail_form'
 
+# group :development, :production do
+#   gem 'delayed_job_active_record'
+#   gem 'sendgrid'
+# end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
