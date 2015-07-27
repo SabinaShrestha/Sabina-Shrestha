@@ -1,11 +1,12 @@
 class Contact < ApplicationMailer
-  include SendGrid
+  # include SendGrid
   # plain text email
   def send_contact_info
     mail :to => "sabina.pari@yahoo.com", 
          :subject => "Welcome #{user.name} :-)",
          :body => 'this is a email body'
   end
+  
   # html email
   def send_contact_onfo_html
     mail :to => "sabina.pari@yahoo.com",
