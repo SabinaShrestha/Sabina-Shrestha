@@ -25,8 +25,13 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.article-image {
+    height: 100px;
+    width: 100px;
+}
+
 #home { 
-  background: url(good.jpg) 100% 0 repeat fixed; 
+  background: url(good.jpg) 50% 0 repeat fixed; 
   min-height: 1000px;
   height: 1000px; 
   margin: 0 auto; 
@@ -36,7 +41,7 @@ body {
 }
 
 #home article { 
-  height: 458px; 
+  height: 100px; 
   position: absolute; 
   text-align: center; 
   top: 150px; 
@@ -514,6 +519,10 @@ section h3.section-subheading {
     left: -14px;
     border-right-width: 14px;
     border-left-width: 0;
+}
+
+.padding-center {
+    padding: 40px;
 }
 
 .timeline>li .timeline-image {
