@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/contact' => 'welcome#contact'
   get '/portfolio' => 'welcome#portfolio'
   get '/social' => 'welcome#social'
+  get '/gallery' => 'welcome#gallery'
 
   post '/contact', to: 'contact#create', as: :contact_forms
 
