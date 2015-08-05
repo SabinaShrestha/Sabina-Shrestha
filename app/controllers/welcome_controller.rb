@@ -5,4 +5,6 @@ class WelcomeController < AuthenticatedController
   def contact
     @contact = ContactForm.new
   end
+
+
 end

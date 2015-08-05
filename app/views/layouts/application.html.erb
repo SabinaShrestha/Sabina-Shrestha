@@ -22,6 +22,19 @@
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript">
+    function parallax(){
+      var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+      var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+      prlx_lyr_1.style.top = (window.pageYOffset / 4) + 'px';
+      prlx_lyr_2.style.top = -(window.pageYOffset / 10) + 'px';
+    }
+
+    window.addEventListener("scroll", parallax, false);
+  </script>
 
 </head>
 <body id="page-top" class="index">
@@ -48,9 +61,9 @@
                     <!-- <li>
                         <a class="page-scroll" href="/social">Social</a>
                     </li> -->
-                    <!-- <li>
+                    <li>
                         <a class="page-scroll" href="/gallery">Gallery</a>
-                    </li> -->
+                    </li>
                     <!-- <li>
                         <a class="page-scroll" href="/contact">Contact</a>
                     </li> -->
@@ -61,7 +74,7 @@
  
 <%= yield %>
 
-  <footer>
+  <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
