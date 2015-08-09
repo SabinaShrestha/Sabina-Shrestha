@@ -25,6 +25,9 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+ 
+ <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
   <script type="text/javascript">
     function parallax(){
       var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
@@ -35,6 +38,8 @@
 
     window.addEventListener("scroll", parallax, false);
   </script>
+
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 </head>
 <body id="page-top" class="index">
@@ -72,8 +77,7 @@
         </div>
   </nav>
  
-<%= yield %>
-
+  <%= yield %>
   <footer class="footer">
         <div class="container">
             <div class="row">
