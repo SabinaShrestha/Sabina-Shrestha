@@ -34,33 +34,22 @@ body {
     width: 100px;
 }
 
-#prlx_lyr_1 {
-  position: fixed;
-  background: url(gallery/b.png) no-repeat 0px 0px;
-  width: 100%;
-  height: 800px;
-  background-size: 10%
-}
 
-#content_layer {
-  position: absolute;
-}
-
-#home { 
-  margin: 0px;
-  background: url(gallery/back.jpg) fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
-  width: 100%;
-  // background: url(gallery/back.jpg) 50% 0 no-repeat fixed; 
-  // min-height: 1000px;
-  // height: 1000px; 
-  // margin: 0 auto; 
-  // width: 100%; 
-  // max-width: 1920px; 
-  // position: relative; 
-}
+// #home { 
+//   margin: 0px;
+//   background: url(gallery/back.jpg) fixed;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 1000px;
+//   width: 100%;
+//   // background: url(gallery/back.jpg) 50% 0 no-repeat fixed; 
+//   // min-height: 1000px;
+//   // height: 1000px; 
+//   // margin: 0 auto; 
+//   // width: 100%; 
+//   // max-width: 1920px; 
+//   // position: relative; 
+// }
 
 #home article { 
   height: 100px; 
